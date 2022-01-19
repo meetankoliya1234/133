@@ -14,7 +14,7 @@ with open("Star_with_gravity.csv", "r") as f:
 headers = rows[0]
 star_data = rows[1:]
 
-X = star_data.iloc[:,[3,4]].values 
+X = star_data.iloc[:,[7,8]].values 
 
 wcss = [] 
 
